@@ -64,9 +64,135 @@
 //Math.round(2.2) //? this wil round a number to 2
 //Math.round ((2095 + 799) * 0.1) / 100 //? round this number
 
-var soup = 10;
-var burger = 8;
-var ice_cream = 5;
+//* How to show 2 values after dot
 
-console.log(soup + burger * 3 + ice_cream);
-console.log(soup + burger * 3 + ice_cream);
+// var toaster = 18.9449;
+// var shirt = 7.559;
+// var basketball = 2.6;
+// var shipping = 4.99;
+// var tax = 0.1;
+
+// var total = toaster + shirt * 2 + basketball;
+// let two_values_after_dots = total.toFixed(2);
+// console.log(two_values_after_dots);
+
+//? eaxmple 1
+
+// var soup = 10;
+// var burger = 8;
+// var ice_cream = 5;
+
+// console.log(soup + burger * 3 + ice_cream);
+
+//? eaxmple 2
+
+// var soup = 10;
+// var burger = 8;
+// var ice_cream = 5;
+
+// console.log((soup + burger * 3 + ice_cream) / 3);
+
+//? eaxmple 3
+
+// var toaster = 18.5;
+// var shirt = 7.5;
+
+// console.log(toaster + shirt * 2);
+
+//? eaxmple 4
+
+// var toaster = 18.5;
+// var shirt = 7.5;
+
+// console.log((toaster + shirt * 2) * 0.1);
+
+//? eaxmple 5
+
+// var toaster = 18.5;
+// var shirt = 7.5;
+
+// console.log((toaster + shirt * 2) * 0.2);
+
+//? eaxmple 6
+
+// var toaster = 18.5;
+// var shirt = 7.5;
+
+// console.log((toaster + shirt * 2) * 0.2);
+
+//? eaxmple 7
+
+// var toaster = 18.9449;
+// var shirt = 7.559;
+// var basketball = 2.6;
+// var shipping = 4.99;
+// var tax = 0.1;
+
+// console.log(Math.round(toaster + shirt * 2 + basketball));
+
+//? eaxmple 8
+
+// var toaster = 18.9449;
+// var shirt = 7.559;
+// var basketball = 2.6;
+// var shipping = 4.99;
+// var tax = 0.1;
+
+// console.log(Math.round(toaster + shirt * 2 + basketball + shipping));
+
+//? eaxmple 9
+
+// var toaster = 18.9449;
+// var shirt = 7.559;
+// var basketball = 2.6;
+// var shipping = 4.99;
+// var tax = 0.1;
+
+// console.log(Math.round((toaster + shirt * 2 + basketball + shipping) * tax));
+
+//? eaxmple 10
+
+// var toaster = 18.9449;
+// var shirt = 7.559;
+// var basketball = 2.6;
+// var shipping = 4.99;
+// var tax = 0.1;
+
+// console.log(Math.floor((toaster + shirt * 2 + basketball + shipping) * tax));
+
+//? eaxmple 11
+
+// var toaster = 18.9449;
+// var shirt = 7.559;
+// var basketball = 2.6;
+// var shipping = 4.99;
+// var tax = 0.1;
+
+// console.log(Math.ceil((toaster + shirt * 2 + basketball + shipping) * tax));
+
+//? eaxmple 12
+
+// Given temperature in Celsius
+// var celsiusTemperature = 25;
+// Convert Celsius to Fahrenheit
+// var fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
+// Display the result
+// console.log(fahrenheitTemperature);
+
+//? eaxmple 13
+
+// Given temperature in Fahrenheit
+// var fahrenheitTemperature = 86;
+// Convert Fahrenheit to Celsius
+// var celsiusTemperature = ((fahrenheitTemperature - 32) * 5) / 9;
+// Display the result
+// console.log(celsiusTemperature);
+
+//? eaxmple 14
+
+// Given temperature in Celsius
+// var celsiusTemperature = -5;
+// Convert Celsius to Fahrenheit
+// var fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
+// Display the result
+// console.log(fahrenheitTemperature);
