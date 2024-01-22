@@ -196,3 +196,65 @@
 // var fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
 // Display the result
 // console.log(fahrenheitTemperature);
+
+
+//* Strings
+
+//? syntax Rules
+
+// combine strings or Concatenation
+// "Muhammad"+ "Atif"+ "Ajmal"
+
+// typeof propertie will check the type of value
+// typeof 2 //this will tell that its a number 
+// typeof "Atif" //this will tell that its a string
+
+//? type coercion or automatic type conversion
+// when we add string and number togather javascript will automatically convert number to string
+// "atif" + 3
+
+//? strings also follow the order of operations
+// "$" + (20.95 + 7.99).toFixed(2)
+
+// 'items (' + (1 + 1)+ '): $' + (20.95 + 7.99).toFixed(2);
+// alert ('items (' + (1 + 1)+ '): $' + (20.95 + 7.99).toFixed(2);)
+
+//? more details about strings
+
+// 3 ways to create a string 
+// '' //! the frist way is to use single quotes
+// "" //! the second way is to use double quotes
+// `` //! the third way is to use double quotes
+// recomended is single qoutes in javascript 
+// there is one situation where double quotes might be useful and that is if we have a single quote inside the string example:
+"i'm learning JavaScipt"
+
+//? Escape Character
+// there's actually another solution to this problem other then using double quotes, and that;s by using an escape charecter
+// so a character is one letter number or symbol in a piece of text.
+// now in addition to these characters we have a speacial set of characters we can also use in a String called escape characters escape character looks like this \ a backslash and then another character like single quote this combination actualy counts as one charecter in a string
+// for example,
+// 'I\'m learing JavaScript'
+//? newline character
+// the last escape character will learn in this lesson is back slash n or \n this escape character dosen't create the letter its create a new line of text
+// for example,
+// alert('some/ntext')
+
+//? backticks
+// we call these template strings and they have a name because they have some special features
+//! the first speacial feature of template strings is called interpolation
+// interpolation lets us insert a vale directly  into a String. for example,
+// `item (${1+1}): $${(20.95 + 7.99).toFixed(2)}`
+//? interpolation is recomendation
+
+//?multi-line string
+// template strings have another special feature called multi-line strings
+/*`some
+text` */
+
+//? eaxmple 1
+
+let coffee = 5
+let bagel = 3
+
+console.log("'Total cost:' + '$' " + (coffee + bagel));
