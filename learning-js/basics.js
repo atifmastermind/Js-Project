@@ -197,7 +197,6 @@
 // Display the result
 // console.log(fahrenheitTemperature);
 
-
 //* Strings
 
 //? syntax Rules
@@ -206,7 +205,7 @@
 // "Muhammad"+ "Atif"+ "Ajmal"
 
 // typeof propertie will check the type of value
-// typeof 2 //this will tell that its a number 
+// typeof 2 //this will tell that its a number
 // typeof "Atif" //this will tell that its a string
 
 //? type coercion or automatic type conversion
@@ -221,13 +220,13 @@
 
 //? more details about strings
 
-// 3 ways to create a string 
+// 3 ways to create a string
 // '' //! the frist way is to use single quotes
 // "" //! the second way is to use double quotes
 // `` //! the third way is to use double quotes
-// recomended is single qoutes in javascript 
+// recomended is single qoutes in javascript
 // there is one situation where double quotes might be useful and that is if we have a single quote inside the string example:
-"i'm learning JavaScipt"
+"i'm learning JavaScipt";
 
 //? Escape Character
 // there's actually another solution to this problem other then using double quotes, and that;s by using an escape charecter
@@ -254,7 +253,91 @@ text` */
 
 //? eaxmple 1
 
-let coffee = 5
-let bagel = 3
+// let coffee = 5
+// let bagel = 3
 
-console.log("'Total cost:' + '$' " + (coffee + bagel));
+// console.log("'Total cost:' + '$' " + (coffee + bagel));
+
+//* variable
+// variable is like a container, we can save a value lie a number or a string inside a variable and then use it later.
+// let variabel = 3;
+
+//? syntax Rules
+
+//? variable name restrictions:
+// ! can't use secial words example:
+// let let  = 3;
+// that's because let already has a special meaning in javascript it creates a variable. so let is a reserved word.
+//we can used let1 or so on
+// ! can't start with a number example:
+// let 2name = 3;
+//if we start with a number, javascript will think this is a number instead of a variable name.
+// we can use numbers in the middle or the end
+//let na2me = 3;
+//let name2 = 3;
+// ! we can't use most special charecters like these or pace in a variable name examle:
+// let name@!#%^&* = 3;
+// let name two = 3;
+// * there are two speacial characters we can use dollar and underscore.
+// let $name = 3;
+// let _name = 3;
+// so those are the rules for naming variables.
+
+// ? change variable value
+//like we have variable name
+// shirt_name = "levi's";
+// we can change this variable value like this
+// shirt_name = "denim";
+// console.log(shirt_name);
+
+// ! Assigning a value
+// when we assigning a value to variable its called assigning a value to a variable
+// ! re-assigning a value
+// when we change a value insite a variable its called re-assigning a value to a variable
+
+//? syntax rues for re-assigning a value
+// we don't use "let" when re-assigning thats because let creates a new variable
+// shirt_name = "denim";
+
+//? shortcuts for re-assigning variables
+//long way
+//cartQuantity = cartQuantity + 2;
+// short way
+//cartQuantity += 2;
+// more short way
+//cartQuantity++;
+
+//? variable re-assignment shortcuts
+
+// += 2 variable = variable + 2
+// -= 2 variable = variable - 2
+// *= 2 variable = variable * 2
+// /= 2 variable = variable / 2
+// ++ 2 variable = variable + 1
+// -- 2 variable = variable - 1
+
+//? best prectices for naming variables
+// Naming Concention
+//! camelCase
+// in camelcase we combain the words togather and capitalize every word except the first word camelCase is the standard naming convention for Javascript
+//! PascalCase
+// Pascal case is the same as Camel Case except we capitalize the first word.
+//! Kebab case
+// here we keep the words lowercase and combine them with a dash
+// its doesn't work in javascript its workds in html and css
+//! snake_case
+//where we keep the words lowercase and combine them with underscores.
+// its ued in other languages, but its not really used in javascript
+
+// ? 3 ways to create variables
+// ! so the first way is to use let
+// let employee = "Atif"
+
+// ! seccond way is to use const
+// const employee = "Atif"
+// if we used const we can't change this value later
+
+// ! third way is Var
+var employee = "Atif";
+
+// ? booleans and if statements
